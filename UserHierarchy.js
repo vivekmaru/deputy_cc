@@ -140,9 +140,9 @@ users = [
 ];
 module.exports = UserHierarchy
 
-// const userHierarchy = new UserHierarchy();
-// userHierarchy.setRoles(roles);
-// userHierarchy.setUsers(users);
+const userHierarchy = new UserHierarchy();
+userHierarchy.setRoles(roles);
+userHierarchy.setUsers(users);
 
 
-// console.log(userHierarchy.getUsers());
+console.log(userHierarchy.getUsers());
