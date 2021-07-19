@@ -1,0 +1,14 @@
+{
+  "name": "deputy_cc",
+  "version": "1.0.0",
+  "description": "Deputy Coding Challenge",
+  "main": "UserHierarchy.js",
+  "scripts": {
+    "test": "UserHierarchy.test.js"
+  },
+  "author": "Dewan Arun Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
