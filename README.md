@@ -11,7 +11,7 @@ Then we install and select the *Node.js* version we want to use ( in this case I
 nvm install 12
 nvm use 12
 ```
-move the directory where you cloned the repository
+move to the directory where you cloned the repository
 
 ```
 cd deputy_cc/
