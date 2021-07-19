@@ -18,7 +18,7 @@ Then in the *deputy_cc* directory, we initialize the JSON file for test suite an
 ```
 npm init
 ```
-This is followed by the installation of jest itself:
+The CLI will prompt you to fill the required JSON values. When prompted for *test command*, write the file name "UserHierarchy.test.js".This is followed by the installation of jest itself:
 ```
 npm i jest --save-dev
 ```
