@@ -1,6 +1,17 @@
 # Deputy Coding Challenge
 
-The code base includes the test suite and the js files. This is a very primary implementation of the roles and users in a User Hierarchy design. To execute the code, I used Node.js on NVM. The test suite was run using the **Jest** framework. To run the code on Unix environment, after installing the Node.js, move the directory where you cloned the repository
+The code base includes the test suite and the js files. This is a very primary implementation of the roles and users in a User Hierarchy design. To execute the code, I used Node.js on NVM. The test suite was run using the **Jest** framework. 
+
+To run the code on Unix environment, we first install ***nvm*** ( a use full manager for juggling multiple node.js versions) using the following command:
+```
+sudo pacman -Syu nvm
+```
+Then we install and select the *Node.js* version we want to use ( in this case I went with 12),
+```
+nvm install 12
+nvm use 12
+```
+move the directory where you cloned the repository
 
 ```
 cd deputy_cc/
